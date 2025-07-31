@@ -1,5 +1,3 @@
-Here’s a full `README.md` file you can use for your GitHub repository, which explains how to fix time sync on Linux when NTP ports are blocked by your ISP using a public HTTP API (like TimeZoneDB):
-
 ---
 
 # 📡 NTP Fix on Linux When ISP Blocks Time Sync Ports

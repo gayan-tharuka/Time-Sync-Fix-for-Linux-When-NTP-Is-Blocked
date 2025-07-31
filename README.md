@@ -19,5 +19,5 @@ If your ISP or network **blocks NTP ports (UDP 123)** and your Linux system can'
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/time-sync-fix.git
+git clone https://github.com/gayan-tharuka/Time-Sync-Fix-for-Linux-When-NTP-Is-Blocked.git
 cd time-sync-fix

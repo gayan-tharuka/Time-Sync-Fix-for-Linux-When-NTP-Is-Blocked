@@ -1,0 +1,14 @@
+[Unit]
+Description=Fix system time on boot using TimeZoneDB API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/ntp/get_time_on_boot.py
+WorkingDirectory=/home/pi/ntp
+StandardOutput=journal
+StandardError=journal
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

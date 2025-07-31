@@ -149,5 +149,3 @@ MIT License
 * Raspberry Pi Foundation
 
 ---
-
-Let me know if you'd like the GitHub repo files (`get_time_on_boot.py`, `set-ntp-fix.service`) bundled and zipped.
